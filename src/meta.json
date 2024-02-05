@@ -35,14 +35,14 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     },
@@ -122,7 +122,12 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -166,7 +171,12 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -192,7 +202,13 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "44514ad1-8721-4e66-9ede-bc707fc76366": {
+                    "scope": "APP",
+                    "name": "voice",
+                    "screenId": "c7aea900-7322-47c8-9efd-eac6f97d3963"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
